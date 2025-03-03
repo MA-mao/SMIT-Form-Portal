@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./fotor-2025030321252.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Registration Form - SMIT</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <center>
+                <div><img src="./saylani.png" alt="Saylani" width="270"></div>
+                <a href="https://www.facebook.com/" target="_blank"><img class="icons" src="./facebook.png" alt="Facebook" width="35"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="icons" src="./instagram.png" alt="Instagram" width="35"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img class="icons" src="./youtube.png" alt="YouTube" width="35"></a>
+                <h1>Registration Form - SMIT</h1>
+                <a class="h2" href="https://student.saylaniwelfare.com/">
+                    <input class="button-container" type="image" src="./images-removebg-preview.png" width="20" alt="Student Portal" title="Go to Student Portal">Student Portal
+                </a>
+                <h3>Services - Education - Registration</h3>
+            </center>
+        </div>
+        <br>
+
+        <div class="tabs">
+            <center>
+                <span id="tab1"><a href="./index.html" class="a-tabs">Registration</span></a>
+                <span id="tab2"><a href="./IDcard.html" class="a-tabs" >Download ID Card</span></a>
+                <span id="tab3"><a href="results.html" class="a-tabs">Results</span></a>
+            </center>
+        </div>
+        <br>
+
+        <form action="#" method="post">
+            <div class="form-row">
+                <div class="form-column">
+                    <div class="form-group">
+                        <label for="country">Select Country</label>
+                        <br>
+                        <select id="country" name="country">
+                            <option value="">Select Country</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Turkey">Turkey</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="course">Select Course or Event</label>
+                        <br>
+                        <select id="course" name="course">
+                            <option value="">Select Course or Event</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="name">Full Name</label>
+                        <br>
+                        <input id="name" type="text" name="name" placeholder="Full Name" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="email">Email</label>
+                        <br>
+                        <input id="email" type="email" name="email" placeholder="Email" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="cnic">CNIC</label>
+                        <br>
+                        <input id="cnic" type="number" name="cnic" placeholder="CNIC" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="dob">Date of Birth</label>
+                        <br>
+                        <input id="dob" type="date" name="dob">
+                    </div>
+                </div>
+                <div class="form-column">
+                    <div class="form-group">
+                
+                        <label for="city">Select City</label>
+                        <br>
+                        <select id="city" name="city">
+                            <option value="">Select City</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="proficiency">Select your Computer Proficiency</label>
+                        <br>
+                        <select id="proficiency" name="proficiency">
+                            <option value="">Select your Computer Proficiency</option>
+                            <option value="none">None</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Advanced">Advanced</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="father_name">Father's Name</label>
+                        <br>
+                        <input id="father_name" type="text" name="father_name" placeholder="Father's Name" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="phone">Phone</label>
+                        <br>
+                        <input id="phone" type="number" name="phone" placeholder="Phone" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="father_cnic">Father's CNIC (Optional)</label>
+                        <br>
+                        <input id="father_cnic" type="number" name="father_cnic" placeholder="Father's CNIC (Optional)">
+                    </div>
+        
+                    <div class="form-group">
+                        <br>
+                        <label for="gender">Select Gender</label>
+                        <br>
+                        <select id="gender" name="gender">
+                            <option value="">Select Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <br>
+                <label for="address">Address</label>
+                <br>
+                <input id="address" type="text" name="address" placeholder="Address" required>
+            </div>
+        
+            <div class="form-group full-width">
+                <br>
+                <label for="qualification">Last Qualification</label>
+                <br>
+                <select id="qualification" name="qualification">
+                    <option value="">Last Qualification</option>
+                    <option value="Matric">Matric</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Masters">Masters</option>
+                    <option value="PhD">PhD</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+        
+            <div class="form-group full-width">
+                <br>
+                <label for="laptop">Do you have a laptop?</label>
+                <br>
+                <select id="laptop" name="laptop">
+                    <option value="">Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="picture">Picture</label>
+            </div>
+            
+            <label class="custom-file-upload">
+                <img src="./plus.png" alt="plus icon" width="10"> Upload image
+                <input type="file" class="file-input" id="picture" />
+            </label>
+            <div class="upload-img-content">
+                <ul>
+                    <li class="list-ul">With white or blue background</li>
+                    <li  class="list-ul">File size must be less than 1MB</li>
+                    <li class="list-ul">File type: jpg, jpeg, png</li>
+                    <li class="list-ul">Upload your recent passport size picture</li>
+                    <li class="list-ul">Your Face should be clearly visible without any Glasses</li>
+                </ul>
+            </div>
+            <hr>
+            <div>
+                <ol>
+                    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+                    <br>
+                    <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+                    <br>
+                    <li>Defiance will render my admission canceled at any point in time.</li>
+                    <br>
+                    <li>Upon completion, of the course, I will complete the required project by SMIT.</li>
+                    <br>
+                    <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+                
+                </ol>
+            </div>
+            <div class="not-robo">
+                <input class="checkbox" type="checkbox">I'm not a robot<img src="./robot-removebg-preview.png" alt="robo" width="90">
+            </div>
+            <div>
+                <br>
+               <button class="submit">SUBMIT<button>
+            </div> 
+        </form>
+</body>
+</html>
